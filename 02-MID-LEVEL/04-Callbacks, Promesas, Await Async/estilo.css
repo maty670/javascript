@@ -1,0 +1,44 @@
+body{
+	background: #444;
+	font-family: sans-serif;
+}
+.titulos{
+	color: white;
+	text-align: left;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+
+.principal{
+	text-align: center;
+}
+
+.sintaxis{
+	width: fit-content;
+	padding: 5px 10px;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background: #999;
+	font-size: 15px;
+	margin-left: 5%;
+}
+
+.contenido{
+	padding: 10px 25px;
+	background: #2c4554;
+	width: 75%;
+	margin: auto;
+}
+
+.descripcion{
+	margin-left: 5%;
+	color: #bbb;
+	width: 65%;
+	font-size: 20px;
+}
+
+
+
+

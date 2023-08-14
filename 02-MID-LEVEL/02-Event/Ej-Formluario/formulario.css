@@ -1,0 +1,62 @@
+body{
+	color: #000;
+	font-family: sans-serif;
+	
+}
+h2{
+	color: white;
+	text-align: center;
+}
+
+input{
+	display: block;
+	width: 90%;
+	padding: 9px;
+	margin: 12px auto;
+	box-sizing: border-box;
+
+	color: white;
+	border: none;
+	border-bottom: 2px solid #1c87c3;
+	background: transparent;
+	outline: none !important;
+
+	transition: color 0.3s,background 0.3s;
+}
+
+
+input::placeholder{
+	color: #1c87c3;
+}
+
+input:hover{
+	background: #26a;
+}
+
+input:hover::placeholder{
+	color: #888;
+}
+
+
+
+input[type="submit"]{
+	width: 20%;
+	padding: 9px;
+	color: white;
+	margin-top: px;
+	background: #888;
+	margin: 8% 0% 5% 5%;
+}
+
+input[type="submit"]:hover{
+	background: #666;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+	background: #001140;
+	padding: 30px;
+	min-width: 500px;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title></title>
+</head>
+<body>
+	<h2 class="titulo">Estructura de los JSON</h2>
+
+<h2>Objeto</h2>
+<p>objeto = {					<br>
+		nombre : "PEDRO",	<br>
+		edad : 24		<br>
+	};							<br>
+</p>
+<br><br>
+<h2>JSON Deserializado</h2>
+<p>objeto = {					<br>
+		"nombre" : "PEDRO",	<br>
+		"variable2" : 24		<br>
+	};							<br>
+</p>
+
+<br><br>
+<h2>JSON Serializado</h2>
+<p>objeto = '{"nombre" : "PEDRO","edad" : 24}';							<br>
+</p>
+
+<br><br>
+<h1>Serializar y Deserializar</h1>
+<h3>serializarJSON = JSON.stringify(JSONDeserializado);<br>
+deserializarJSON = JSON.parse(JSONSerializado);</h3>
+
+<div class="separador"></div>
+<h3 style="text-align: center;"><a href="https://reqres.in/" target="_BLANK">https://reqres.in/"</a></h3>
+
+<div class="container">
+	<div>
+	<h3>Respuesta Serializada</h3>
+	<p>{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</p>
+	<h3>Luego de Deserializar con JSON.parse, se puede accerder a los datos</h3>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
