@@ -1,0 +1,7 @@
+• Install Package Control (Ctrl + Shift + P)
+• Black Bird (Color Scheme)
+• Brogrammer (Theme)
+• ColorPicker
+• ColorHelper
+• LiveReload
+

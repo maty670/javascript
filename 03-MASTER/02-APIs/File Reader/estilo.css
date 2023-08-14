@@ -1,0 +1,11 @@
+.imagenes{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    grid-gap: 10px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}

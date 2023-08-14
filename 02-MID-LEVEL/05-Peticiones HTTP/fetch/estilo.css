@@ -1,0 +1,50 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.elemento{
+	margin: 0 50px;
+}
+
+.detalles{
+	display: block;
+}
+
+h4{
+	font-size: 11px;
+	margin: 0;
+}
+
+
+
+
+
+.id,.nombre,.email{
+	font-size: 8px;
+	text-align: center;
+	outline: 1px solid #606060;
+	background: #9f6700;
+	color:  white;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.avatar{
+	text-align: center;
+}
+
+.avatar img{
+	width: 90px;
+	height: 120px;
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	margin: 0;
+
+}
